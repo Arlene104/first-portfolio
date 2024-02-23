@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@media(min-width: 989px){
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+}
+section .image-box{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+section .image-box img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.formbox{}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    gap: 10px;
+    
+}
+
+.logo img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+ .texts{
+    color: #525252;
+    font-style: normal;
+    
+}
+
+.texts h3{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.texts p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.embox {
+    display: flex;
+    width: 420px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+}
+
+p .emtext{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: var(--Gray-3, #828282);
+}
+
+.login input{
+    padding: 13px 10px;
+    width: 420px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+}
+
+.helpsection {
+    display: flex;
+    text-transform: capitalize;
+    color: #A1A1A1;
+    font-size: 12px;
+     font-weight: 400;
+    
+}
+
+
+button{
+border: none;
+width: 420px;
+padding: 13px 10px 12px 10px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background: #7F265B;
+color: #DED2D9;
+font-weight: 700;
+}
+
+.last-section{
+    position: absolute;
+    display: flex;
+    top: 90vh;
+    margin: 0px 30px;
+    font-size: 12px;
+    color: #A1A1A1;
+    text-transform: capitalize;
+}
+
+.last-section p,a{
+    margin: 0px 40px;
+    text-decoration: none;
+}
+
+

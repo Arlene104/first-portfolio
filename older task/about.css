@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.upper-rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #DD9C3C;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+
+.upper-rows button {
+    padding: 7px 25px;
+    border: none;
+    background-color: #7B61FF;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+.upper-rows button:hover {
+    background-color: #856cf7;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.contents{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    position: absolute;
+}
+
+.contents .photo-grabber{
+    position: relative;
+    left: 80px;
+    top: 80px;
+}
+
+.contents .photo-grabber img{
+    height: 40vh;
+}
+
+section .about{
+    position: absolute;
+    top: 10vh;
+}
+
+.contents .text-wrapper{
+    position: relative;
+    top: 35px;
+    width: 75%;
+}
+
+.contents .about{
+    text-transform: capitalize;
+    color: #7B61FF;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.contents .sub-title{
+    color: #DD9C3C;
+    font-size: 18px;
+}
+
+.contents .description{
+    margin: 30px 0px;
+}
+
+.text-wrapper button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #7B61FF;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    margin: 30px 180px;
+    font-size: 15px;
+}
+
+.text-wrapper button:hover {
+    background-color: #856cf7;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}   
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+}
+
+.skills p{
+    line-height: 30px;
+}
+
+.skills img{
+    width: 48%;
+    height: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.last-section{
+    position: relative;
+    top: 85vh;
+    left: 20vh;
+}
+
+.button button{
+    padding: 10px 50px;
+    border: none;
+    background-color: #7B61FF;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    margin: 30px -35px;
+    font-size: 15px;
+}
+
+.button button:hover{
+    background-color: #856cf7;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}

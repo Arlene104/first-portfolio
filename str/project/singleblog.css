@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+body{
+    overflow-x: hidden;
+}
+.middle-section{
+    width: 80%;
+    position: absolute;
+    left: 900px;
+    top: 8vh;
+}
+
+.blog-section{
+    background-color: #ffffff;
+    height: 130vh;
+    width: 80%;
+    box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+ul ol p{
+    font-size: 23px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+
+
+.imgs img{
+    width: 15%;
+    margin: 10px 370px;
+    height: 20%;
+    background-color: #ECF4F8;
+    border: 1px solid #838a8d;
+    border-radius: 20%;
+    box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.description .sub-titles{
+    text-align: center;
+    font-size: 30px;
+    margin: 6px 0px;
+    text-transform: capitalize;
+    color: #DD9C3C;
+}
+
+.description .main-title{
+    font-weight: bolder;
+    font-size: 26px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.description .main-desc{
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.icons img {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.comments{
+    position: absolute;
+    top: 900px;
+    left: 900px;
+}
+
+.comments h3{
+    margin-bottom: 80px;
+}
+
+form input{
+    width: 65vh;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button{
+    background-color: #7B61FF;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.commentsandlikes{
+    margin: 100px 0px;
+    width: 60%;
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.names{
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.comment p{
+    text-align: start;
+    background-color: #ECF4F8;
+   
+}
+
+.likes{
+    display: flex;
+        flex-direction: row;
+}
+
+.likes img{
+        margin: 10px 0;
+        width: 30px;
+        height: 20px;
+        margin-left: 10px;   
+}

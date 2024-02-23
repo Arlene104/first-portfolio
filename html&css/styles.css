@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;box-sizing: border-box;
+    font-family: 'nunito sans';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: 10% 40%;
+}
+
+@media(min-width: 768px){
+.main-rectangle{
+    width: 811px;
+    height: 40vh;
+    flex-shrink: 0;
+    display: flex;
+    border: 1px solid black;
+    
+}}
+
+.left{
+    flex-basis:  1000%;
+    flex: 3;
+    order: 2;
+    border: 1px solid black;
+    align-items: flex-start;
+}
+
+.right{
+    flex-basis:  50%;
+    flex: 2px;
+    order: 1;
+    border: 1px solid black;
+    
+}
+    

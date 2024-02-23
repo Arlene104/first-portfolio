@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+</head>
+<body>
+    <div class="main-grid">
+        <div class="sidebar">q</div>
+        <div class="header">w</div>
+        <div class="main">e</div>
+    </div>
+</body>
+</html>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .sidebar,.header,.main{
+        border: 1px solid black;
+    }
+    .main-grid {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 50px 1fr;
+}
+.sidebar {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+header {
+  grid-column: 2;
+  grid-row: 1;
+}
+main {
+  grid-column: 2;
+  grid-row: 2;
+}
+</style>
